@@ -1,4 +1,4 @@
-<!-- Exercise: Display a message box (pop-up) - Class 1.D -->
+<!-- Exercise: xxxxx - Class 1.H -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,14 +6,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message Box</title>
+    <title>Document</title>
 
-<!-- JS -->
+        <!-- JS  -->
 
-    <script> 
-    window.alert("Learning Java Script");
-    </script>
+    <script>
 
+    </script>    
 </head>
 <body>
     
