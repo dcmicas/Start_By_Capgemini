@@ -1,0 +1,27 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue"> Nonna Colorida</span>
+    </h1>
+    <div class="container-menu">
+    <nav class="main-header__menu">
+        <ul>
+            <li><a>Produtos</a></li>
+            
+            <li><a>Contato</a></li>
+            <li><a href="https://www.instagram.com/nonna_colorida/" target="_blank">Instagram
+                <i class="fa-brands fa-instagram"></i>
+            </a></li>
+            <li><a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count"> {{carrinhoService.obtemCarrinho().length}}</span>
+                </a></li>
+        </ul>
+    </nav>
+    <form class="search-form">
+        <input type="text">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+</div>
+
+</header>
+
