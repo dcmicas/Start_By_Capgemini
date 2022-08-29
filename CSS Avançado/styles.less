@@ -1,0 +1,41 @@
+@cor: red;
+@cor2: blue;
+@cor3: rgb(220, 201, 220);
+@tamanho: 20px;
+//@width: 0.25;
+
+body{
+    background-color: @cor3;
+}
+/* .drop.shadow{
+    text-shadow: 2px 1px 1px white;
+    text-decoration: underline;
+} */
+
+h1{
+    .cores('h1');
+}
+
+p {
+    .cores('p');
+}
+
+/* p{
+   color: if(iscolor(@cor), @cor,green); //se for cor, pega a cor, se não, pega verde
+   width: percentage(@width); //transforma o valor em porcentagem
+   b{
+    background-color: @cor3;
+   }
+} */
+
+.cores(@tag){
+    color: @cor*0.8; //fazendo calculo com cores - manipular tons de cores da original
+    & when (@tag = 'p'){
+        font-size: @tamanho*1.23; //fazendo calculo para tamanho da fonte
+    }
+    & when (@tag = 'h1'){
+        text-shadow: 2px 1px 1px #7a7b7c;
+        font-size: @tamanho + 27px;
+    }
+}
+
